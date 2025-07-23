@@ -1,0 +1,67 @@
+@font-face {
+	font-family: 'LibreBaskerville';
+	src: url('/src/assets/public/assets/font/LibreBaskerville-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'DomineRegular';
+	src: url('/src/assets/public/assets/font/Domine-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'BrittanySignature';
+	src: url('/src/assets/public/assets/font/BrittanySignature.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'BodoniModa';
+	src: url('/src/assets/public/assets/font/BodoniModa_72pt-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'CinzelDecorative';
+	src: url('/src/assets/public/assets/font/CinzelDecorative-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Creattion';
+	src: url('/src/assets/public/assets/font/Creattion\ Demo.otf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Nunito-Regular';
+	src: url('/src/assets/public/assets/font/Nunito-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'wasted-vindey';
+	src: url('/src/assets/public/assets/font/wasted-vindey.regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'AbhayaLibre';
+	src: url('/src/assets/public/assets/font/AbhayaLibre-Regular.ttf') format('truetype');
+}
+
+@import 'tailwindcss';
+
+/* CSS Reset */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
