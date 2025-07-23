@@ -1,7 +1,18 @@
 import { sveltekit } from '@sveltejs/kit/vite';
 import { defineConfig } from 'vite';
-import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
-	plugins: [sveltekit(), tailwindcss()]
+	plugins: [sveltekit()],
+	build: {
+		outDir: 'dist' // Pastikan output di dist
+	},
+	optimizeDeps: {
+		include: ['@supabase/supabase-js']
+	},
+	resolve: {
+		alias: {
+			'node:buffer': 'buffer', // Untuk kompatibilitas browser
+			'node:stream': 'stream-browserify'
+		}
+	}
 });

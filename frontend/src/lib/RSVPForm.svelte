@@ -1,7 +1,7 @@
 <!-- frontend/src/lib/RSVPForm.svelte -->
 <script>
   import { createEventDispatcher } from 'svelte';
-  import supabase from '$lip/supabase';
+  import supabase from '$lib/supabase';
 
   export let responseMessage = '';
 
