@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "root": "frontend",
+  "root": "frontend/.svelte-kit/output/client",
   "builds": [
     {
-      "src": "frontend/**",
+      "src": "**",
       "use": "@vercel/static"
     }
   ],
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "/frontend"
+      "destination": "/index.html"
     }
   ]
 }
